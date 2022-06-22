@@ -1,0 +1,190 @@
+.login_block {
+    width: 100%;
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalMain {
+    width: 100%;
+    text-align: center;
+}
+
+.errDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalMain input {
+    width: 55%;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    text-indent: 10px;
+    margin: 0.8rem 0;
+}
+
+.modalBtn {
+    border-radius: 0.5rem;
+    background: #006000 !important;
+    color: #FFFFFF !important;
+    padding: 0.5rem 1.2rem !important;
+    transition: 0.5s;
+}
+
+.modalBtn:hover {
+    border-radius: 0.5rem;
+    background: rgba(0, 96, 0, 0.51) !important;
+    color: #FFFFFF !important;
+    padding: 0.5rem 1.2rem !important;
+    transition: 0.5s;
+}
+
+.login_info h2 {
+    font-family: Montserrat arm;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.login_block input {
+    width: 100%;
+    padding: 9px 0;
+    margin-bottom: 2rem;
+    text-indent: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.login_info {
+    width: 50%;
+    padding: 40px;
+    background: #F9F9F9;
+    border: 1px solid silver;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.pass_div {
+    position: relative;
+    width: 100%;
+}
+
+.see_pas {
+    position: absolute;
+    right: 2rem;
+    top: 12px;
+    cursor: pointer;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.links a {
+    border-bottom: 1px solid #006000;
+    color: #006000;
+}
+
+.links button {
+    margin-top: 1rem;
+    padding: 8px 25px;
+    background: #006000;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.send {
+    padding: 6px 22px;
+    border-radius: 5px;
+    background: #006000;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+
+.forget_big_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 6rem 0;
+}
+
+.forget_info_block {
+    width: 50%;
+    padding: 40px;
+    background: #F9F9F9;
+    border: 1px solid silver;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+
+.forget_pass {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.forget_info_block p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.forget_info_block input {
+    width: 100%;
+    padding: 8px 0;
+    background: #F9F9F9;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    text-indent: 20px;
+    margin-bottom: 1rem;
+    background: #fff;
+}
+
+.sned_block {
+    margin-top: 1rem;
+}
+
+.sned_block button {
+    padding: 10px 30px;
+    font-family: Montserrat arm;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #006000;
+    border-radius: 5px;
+}
+
+
+.sned_block a {
+    color: #000000;
+    font-family: Montserrat arm;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    margin-left: 2rem;
+}

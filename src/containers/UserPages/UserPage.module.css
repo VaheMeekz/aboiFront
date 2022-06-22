@@ -1,0 +1,135 @@
+.accountuserbox {
+  margin-left: 5rem;
+  width: 70%;
+}
+.title {
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  margin: 2rem 0;
+}
+.infoUserBlock {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+}
+.input_block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input_block2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.input_block2 input {
+  margin-bottom: 35px;
+  margin-left: 20px;
+  border: 1px solid #9f9f9f;
+  padding: 7px 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-indent: 15px;
+}
+.input_block input {
+  margin-bottom: 35px;
+  border: 1px solid #9f9f9f;
+  padding: 7px 0;
+  border-radius: 5px;
+  border-radius: 6px;
+  text-indent: 15px;
+}
+
+.password_input_box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+/* .password_input_box input{
+  margin-bottom: 2.3rem;
+  padding: 7px 0;
+  border-radius: 5px;
+  border-radius: 6px;
+  text-indent: 15px;
+  border: 1px solid #9F9F9F;
+} */
+.inout_pass {
+  width: 100%;
+  position: relative;
+}
+
+.inout_pass input {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 7px 0;
+  border-radius: 5px;
+  border-radius: 6px;
+  text-indent: 15px;
+  border: 1px solid #9f9f9f;
+}
+
+.see_pas {
+  position: absolute;
+  right: 1rem;
+  top: 2.6rem;
+  cursor: pointer;
+}
+
+.saveChange {
+  padding: 8px 30px;
+  margin-top: 18px;
+  border-radius: 5px;
+  background: #006000;
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.errore_messige {
+  padding-top: 100px !important;
+  color: red;
+  font-size: 18px;
+}
+
+@media (max-width: 920px) {
+  .accountuserbox {
+    margin-left: 0rem;
+    width: 100%;
+  }
+  .input_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .input_block2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .input_block2 input {
+    margin-bottom: 35px;
+    margin-left: 0px;
+    border: 1px solid #9f9f9f;
+    padding: 7px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-indent: 15px;
+  }
+  .password_input_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

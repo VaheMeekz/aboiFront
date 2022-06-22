@@ -1,0 +1,352 @@
+.productBg {
+  width: 100%;
+  height: 15rem;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-image: url("../../../public/bgProduct.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+
+.divTesakani {
+  margin-bottom: 3rem;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.images img {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover !important;
+}
+
+.bread_path {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.item:hover {
+  color: green;
+  transition: all 0.2s;
+}
+
+.divOne {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.divAcardionHeader {
+  border: none !important;
+}
+
+.divAcardionHeader p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 17px;
+  color: #2d3748;
+  /* text-indent: -15px; */
+}
+
+.divAcardionHeader span {
+  display: block;
+}
+
+.acardionItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between !important;
+}
+
+.divOne h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #314151;
+}
+
+.divAcardionHeader {
+  display: flex !important;
+}
+
+.divAcardionHeader button {
+  background: #fff !important;
+  width: 100%;
+}
+
+.acardionI {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.fooP {
+  padding-left: 0rem;
+}
+
+.acardionOne {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 100%;
+}
+
+.acardionBodyOne {
+  padding-top: 10px;
+}
+
+.acardionBodyOne p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: #2d3748;
+  cursor: pointer;
+  padding: 5px 0;
+  margin-bottom: 15px !important;
+}
+
+.divAcardionHeaderTwo button {
+  background: #fff !important;
+  width: 100%;
+}
+
+.acardionBodyTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.textTwo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.textTwo p {
+  margin: 0 !important;
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.rangeSlider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  color: #02917d !important;
+}
+
+.divAcardionHeaderThree button::after {
+  background: #fff !important;
+  width: 100%;
+}
+
+.acardionBodyThree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.textThree {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.textThree p {
+  margin: 0 !important;
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+.radio {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px;
+}
+
+.radio p {
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  color: #2d3748;
+}
+
+.bnakaranner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.bnakaranner p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #2d3748;
+}
+
+.selectDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  padding-left: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin: 1rem 0;
+}
+
+.pagination_block {
+  display: flex;
+}
+
+.noActive {
+  border-radius: 5px !important;
+  padding: 5px 18px !important;
+  color: #FFFFFF !important;
+  background: #006000 !important;
+  margin: 1rem 1rem !important;
+  font-size: 22px !important;
+  cursor: pointer !important;
+}
+
+.active {
+  border-radius: 5px !important;
+  padding: 5px 18px !important;
+  color: black !important;
+  background: #006000 !important;
+  margin: 1rem 1rem !important;
+  font-size: 22px !important;
+  cursor: pointer !important;
+}
+
+.divProduct {
+  margin: 4rem 12px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: solid 1px black;
+  padding: 20px;
+  height: 28rem !important;
+}
+
+.img_box {
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+.sliderDivs{
+  width: 100% !important;
+}
+
+
+
+.saleSpan {
+  text-decoration: line-through;
+}
+
+.img_box img {
+  object-fit: cover;
+  height: 15rem !important;
+}
+
+.salsesBg {
+  background-image: url("../../../public/bgSales.png");
+  position: absolute;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  width: 104px;
+  height: 110px;
+  right: 0;
+  top: 16px;
+}
+
+.salsesBg p {
+  position: relative;
+  top: 18px;
+  left: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  transform: rotate(45deg);
+}
+
+.divProduct p {
+  padding-top: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #006000;
+}
+
+.divProduct img {
+  width: 90%;
+  height: 100%;
+}
+
+.divProduct h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (max-width: 920px) {
+  .bread_path {
+    margin-bottom: 30px;
+  }
+
+}

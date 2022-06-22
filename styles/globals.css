@@ -1,0 +1,454 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+table {
+  border-spacing: 0;
+}
+
+* {
+  outline: none !important;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  box-shadow: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  border: 0;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+/* .accordion-button::after {
+  display: none !important;
+} */
+.accordion {
+  /* width: 50% !important; */
+  padding: 0 !important;
+  background: transparent !important;
+  margin-top: 18px;
+}
+.accordion-item {
+  border: none !important;
+  background: transparent !important;
+  margin-top: 18px;
+}
+.accordion-header {
+  background: transparent !important;
+}
+.accordion-button {
+  background: transparent !important;
+  padding: 5px !important;
+  /* width: 90% !important; */
+}
+.accordion-item:first-of-type .accordion-button {
+  background: transparent !important;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+.accordion-button::after {
+  margin-left: 0px !important;
+}
+.accordion-body {
+  padding: 5px 0 0 10px !important;
+  color: black;
+  font-size: 19px;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 0 !important;
+  height: 1.25rem;
+}
+
+.myClassname {
+  border-radius: 1rem !important;
+}
+
+.slick-slider button {
+  display: none !important;
+}
+
+.form-control input {
+  color: red !important;
+  width: 33% !important;
+  border: none !important;
+  background-color: #006000 !important;
+}
+
+.form-control {
+  color: red !important;
+  width: 33% !important;
+  border: none !important;
+  background-color: #006000 !important;
+}
+
+.modal-header .btn-close {
+  margin-bottom: 3rem !important;
+}
+
+.form-control[type="file"] {
+  background-color: #006000 !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-body {
+  padding-top: 0 !important;
+  padding-bottom: 2.2rem !important;
+}
+
+.inputfile-box {
+  position: relative;
+  width: 90%;
+  margin-top: 0.8rem;
+}
+
+.inputfile {
+  display: none;
+}
+
+.file-box {
+  display: none;
+  width: 100%;
+  border: 1px solid;
+  padding: 5px 0px 5px 5px;
+  box-sizing: border-box;
+  height: calc(2rem - 2px);
+}
+
+.file-button {
+  background: #006000;
+  padding: 10px 40px;
+  position: absolute;
+  border: 1px solid;
+  top: 0px;
+  right: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.file-button p {
+  margin-bottom: 0;
+}
+
+.table {
+  border: none !important;
+  border-collapse: none !important;
+}
+
+.table > :not(:first-child) {
+  border-top: none !important;
+}
+
+.btn-success {
+  position: relative;
+  left: -10px;
+  top: -7px;
+  color: rgb(0, 0, 0) !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.show > .btn-success.dropdown-toggle:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.btn-success.dropdown-toggle:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: unset !important;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: none !important;
+  background-color: #ffffff !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.dropdown-menu.show {
+  left: -48px !important;
+}
+.btn-primary {
+  color: unset !important;
+  background-color: unset !important;
+  border-color: unset !important;
+}
+
+/*.modal-content {*/
+/*  position: relative;*/
+/*  display: -moz-box;*/
+/*  display: flex;*/
+/*  -moz-box-orient: vertical;*/
+/*  -moz-box-direction: normal;*/
+/*  flex-direction: column;*/
+/*  width: 20%;*/
+/*  pointer-events: auto;*/
+/*  background-color: unset !important;*/
+/*  background-clip: padding-box;*/
+/*  border: none !important;*/
+/*  !* border-radius: 0.3rem; *!*/
+/*  outline: 0;*/
+/*}*/
+
+input[type="date"]::-webkit-datetime-edit,
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+  color: #fff;
+   position: relative;
+  display: block;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+  position: absolute !important;
+  padding: 2px;
+  color: #fff;
+  left: 75px;
+  display: block;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+  position: absolute !important;
+  padding: 2px;
+  color: #fff;
+  left: 48px;
+  display: block;
+}
+
+input[type="date"]::-webkit-datetime-edit-day-field {
+  position: absolute !important;
+  top: 110%;
+  color: #fff;
+  left: 20px;
+  display: block;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(https://icon-library.com/images/white-calendar-icon-png/white-calendar-icon-png-4.jpg);
+  background-size: cover;
+  background-position: right 45px 0 !important;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: none !important;
+  padding: 0rem 0rem !important;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+input[type="radio"]:after {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  top: -5px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  cursor: pointer;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #2bb800;
+}
+
+input[type="radio"]:checked:after {
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  left: -1px;
+  position: relative;
+  background-color: #2bb800;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #2bb800;
+  cursor: pointer;
+}

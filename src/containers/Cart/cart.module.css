@@ -1,0 +1,209 @@
+.tr {
+  text-align: center;
+}
+
+.thead {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.divMain {
+  width: 100%;
+  max-width: 100%;
+}
+
+.td {
+  width: 40%;
+}
+.check_content {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 25px !important;
+}
+
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.imgDiv img {
+  width: 25%;
+}
+
+.imgDivTwo h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  padding-left: 0.5rem;
+}
+
+.imgDivTwo p svg {
+  margin-right: 10px;
+}
+
+.imgDivTwo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 15px !important;
+}
+
+.tdPrice {
+  height: 80px;
+}
+
+.tdPricee {
+  height: 80px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.totalPricee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity span {
+  font-size: 30px;
+  background: #efefef;
+  border-radius: 5px;
+  padding: 1px 15px;
+  cursor: pointer;
+}
+
+.quantity h5 {
+  margin: 0 10px;
+}
+
+.close {
+  position: relative;
+  left: 75px;
+  bottom: 2px;
+}
+
+.empty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.subtitle {
+  font-size: 26px;
+  margin: 30px 0;
+}
+
+.redirect {
+  background: green;
+  color: #efefef;
+  padding: 9px 25px;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.redirect:hover {
+  background: silver;
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.totalblock {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.add:hover {
+  background: silver;
+  color: black;
+  transition: all 0.5s;
+}
+
+.add {
+  padding: 7px 40px;
+  background: #006000;
+  color: #efefef;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.totalblock p {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 25px !important;
+}
+
+@media (max-width: 920px) {
+  .imgDiv {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .imgDiv img {
+    width: 100%;
+  }
+  .imgDivTwo h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .imgDivTwo p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .td {
+    border: solid 1px black;
+  }
+  .tdPricee {
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 1px black;
+  }
+  .divMain {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+  }
+}

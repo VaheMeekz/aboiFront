@@ -1,0 +1,234 @@
+.footerMain {
+  width: 100%;
+  background-image: url("../../../public/bgFoot.png");
+  /* height: 15rem; */
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.logoFoot {
+  height: 100%;
+}
+
+.divTexekatvutyun {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.divTexekatvutyun h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.divTexekatvutyun ul li {
+  list-style-type: none !important;
+  padding: 5px 0;
+}
+
+.divTexekatvutyun ul {
+  padding: 10px 0;
+}
+
+.divTexekatvutyun ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.divQartez {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.divQartez ul {
+  padding-left: 0 !important;
+}
+
+.divQartez ul li {
+  list-style-type: none !important;
+}
+
+.divQartez ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.divKap {
+  height: 100%;
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divKap div ul {
+  padding: 10px 0;
+}
+
+.divKap ul li a {
+  font-size: 15px;
+  padding: 5px 8px;
+}
+
+.divKap2 ul li {
+  padding: 2px 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.divKap2 h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.divKap2 ul li {
+  margin-bottom: 15px;
+}
+
+.divKap2 ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.divHeteveqMez h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.divHeteveqMez2 ul {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  justify-content: start;
+}
+
+.divHeteveqMez2 ul li a {
+  font-size: 16px;
+}
+
+.fbIcon {
+  padding: 0 20px;
+}
+
+.section {
+  background: black;
+  padding: 20px 0;
+}
+
+.byvariant_block {
+  display: flex;
+  align-items: center;
+}
+
+.byvariant_block p {
+  color: #ffffff;
+}
+
+.card {
+  padding: 10px 20px;
+  background: silver;
+  margin-left: 15px;
+}
+
+.by {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.info_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info_box ul {
+  width: 49%;
+}
+.mobile {
+  display: none;
+  width: 100%;
+  background-image: url("../../../public/bg.webp");
+  /* height: 15rem; */
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+@media (max-width: 980px) {
+  .divKap2 ul li svg {
+    width: 37px;
+  }
+
+  .divQartez ul {
+    padding-left: 0 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .divKap2 ul {
+    width: 100%;
+  }
+  .footerMain {
+    width: 100%;
+    background-image: url("../../../public/bgFoot.png");
+    /* height: 15rem; */
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: block;
+  }
+  .mobile {
+    display: block;
+    width: 100%;
+    background-image: url("../../../public/bg.webp");
+    /* height: 15rem; */
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  .info_box {
+    width: 100%;
+    display: unset;
+    justify-content: center;
+    align-items: center;
+    flex-direction: unset;
+    margin-bottom: 30px;
+  }
+  .info_box ul {
+    width: 100%;
+  }
+} ;

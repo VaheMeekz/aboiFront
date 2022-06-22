@@ -1,0 +1,392 @@
+/* .services_first_section { */
+/* background-image: url("../../../public/assets/banner.png"); */
+/* background-image: url("../../../public/bgProduct.png");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20rem; */
+/* width: 100%; */
+/* height: 15rem; */
+/* background-position: center;  */
+/* background-repeat: no-repeat;  */
+/* background-size: cover;
+  background-image: url("../../../public/bgProduct.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin: 3rem 0;
+} */
+
+/* .title_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+}
+
+.title {
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+} */
+
+.abut_banner {
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  background-image: url("../../../public/assets/banner.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.services_second_section {
+  margin-top: 6rem;
+}
+
+.img_block {
+  width: 100%;
+  position: relative;
+}
+
+.a1 {
+  position: absolute;
+  top: 1rem;
+  right: 19rem;
+  background: #f4f4f4;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.5s !important;
+}
+.hover {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.a1:hover .hover {
+  opacity: 1;
+  left: 4.5rem;
+  top: 9.5px;
+  border-bottom-color: green;
+  border-bottom: 2px solid;
+  font-size: 18px;
+  color: green;
+}
+
+.a2 {
+  position: absolute;
+  top: 6.3rem;
+  right: 16rem;
+  background: #f4f4f4;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.5s !important;
+}
+
+.hover2 {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.a2:hover .hover2 {
+  opacity: 1;
+  left: 4.5rem;
+  top: 9.5px;
+  border-bottom-color: green;
+  border-bottom: 2px solid;
+  font-size: 18px;
+  color: green;
+}
+
+.a3 {
+  position: absolute;
+  top: 11.8rem;
+  right: 13.5rem;
+  background: #f4f4f4;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.5s !important;
+}
+.hover3 {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.a3:hover .hover3 {
+  opacity: 1;
+  left: 4.5rem;
+  top: 9.5px;
+  border-bottom-color: green;
+  border-bottom: 2px solid;
+  font-size: 18px;
+  color: green;
+}
+
+.a4 {
+  position: absolute;
+  top: 18rem;
+  right: 15rem;
+  background: #f4f4f4;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.5s !important;
+}
+
+.hover4 {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.a4:hover .hover4 {
+  opacity: 1;
+  left: 4.5rem;
+  top: 9.5px;
+  border-bottom-color: green;
+  border-bottom: 2px solid;
+  font-size: 18px;
+  color: green;
+}
+
+.a5 {
+  position: absolute;
+  top: 23rem;
+  right: 19rem;
+  background: #f4f4f4;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.5s !important;
+}
+
+.hover5 {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.a5:hover .hover5 {
+  opacity: 1;
+  left: 4.5rem;
+  top: 9.5px;
+  border-bottom-color: green;
+  border-bottom: 2px solid;
+  font-size: 18px;
+  color: green;
+}
+
+.active {
+  stroke: rgb(255, 255, 255);
+}
+.active :nth-child(1) {
+  /* stroke: #FFF;x  */
+  stroke: rgb(255, 255, 255);
+}
+.active :nth-child(2) path {
+  stroke: rgb(255, 255, 255);
+
+  /* fill: rgb(255, 255, 255); */
+}
+
+.actives {
+  background: green !important;
+}
+
+.info_service_block {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+
+.ul li::before {
+  content: "\2022";
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  padding-left: 0 !important;
+}
+
+.ul li {
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.service_info_block h1 {
+  font-family: Montserrat arm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 2.5rem;
+}
+
+.sitinameSectiion {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.title_deliver {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.citi_block {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  transition: all 0.3s;
+  transform: rotate(180deg);
+}
+
+.active_arrow {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  transition: all 0.3s;
+}
+
+.citi_block select {
+  width: 50%;
+  padding: 10px 0;
+  font-weight: 600;
+  text-indent: 1rem;
+  -webkit-appearance: none;
+  border: 0;
+  padding-left: 15px;
+}
+
+.citi_block select option {
+  font-weight: 600;
+}
+
+.displayPrice {
+  display: flex;
+}
+
+.displayPrice p {
+  margin: 0 0.5rem !important;
+}
+
+.displayPrice span {
+  padding: 0 0.58rem;
+}
+
+.sitinameSectiion {
+  background: green;
+  padding: 50px 0;
+}
+
+.price_deliver {
+  padding: 8px 35px !important;
+  background: rgb(255, 255, 255);
+  color: #000000;
+  font-size: 18px;
+}
+
+@media (max-width: 920px) {
+  .a1,
+  .a2,
+  .a3,
+  .a4,
+  .a5 {
+    position: unset;
+    background-color: #fff;
+  }
+  .hover,
+  .hover2,
+  .hover3,
+  .hover4,
+  .hover5 {
+    display: none;
+  }
+  .items_services {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+
+  .img_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .citi_block {
+    width: 100%;
+    display: flex;
+    justify-content: unset;
+    position: relative;
+  }
+  .citi_block select {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 600;
+    text-indent: 1rem;
+    -webkit-appearance: none;
+    border: 0;
+  }
+  .price_deliver {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0 !important;
+    background: #fff;
+    color: #000000;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px !important;
+  }
+}
